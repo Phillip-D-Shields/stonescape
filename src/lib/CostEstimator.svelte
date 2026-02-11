@@ -50,7 +50,7 @@
 
 <div class="card bg-base-100 shadow-xl mb-4 border border-base-200">
   <div class="card-body">
-    <h2 class="card-title text-secondary">2. Converter & Cost Estimator</h2>
+    <h2 class="card-title text-success">Converter & Cost Estimator</h2>
     
     <div class="form-control bg-base-200 p-2 rounded-lg">
       <label class="label cursor-pointer justify-start gap-4">
@@ -107,7 +107,7 @@
 
     <div class="form-control w-full">
       <label class="label"><span class="label-text">Select Product</span></label>
-      <select class="select select-bordered select-secondary w-full" bind:value={selectedProductIndex}>
+      <select class="select select-bordered select-success w-full" bind:value={selectedProductIndex}>
         {#each products as p, i}
           <option value={i}>
             {p.name} 
@@ -122,7 +122,7 @@
       <div class="stats shadow border border-base-200">
         <div class="stat">
           <div class="stat-title">Calculated Weight</div>
-          <div class="stat-value text-secondary text-3xl">
+          <div class="stat-value text-primary text-3xl">
             {#if product.density}
               {weight.toFixed(2)} <span class="text-lg">T</span>
             {:else}

@@ -8,7 +8,7 @@
 <div class="min-h-screen bg-base-200 p-4">
   <div class="max-w-4xl mx-auto">
     <div class="navbar bg-base-100 rounded-box shadow-lg mb-6">
-      <a href="/" class="btn btn-ghost normal-case text-xl">Stonescape Calc</a>
+      <h1 class="px-4 normal-case text-3xl">Stonescape Calc</h1>
     </div>
 
     <VolumeCalculator bind:volume={currentVolume} />
