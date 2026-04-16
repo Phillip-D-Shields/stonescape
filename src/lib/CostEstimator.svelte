@@ -142,7 +142,7 @@
       </div>
     </div>
 
-    <div class="overflow-x-auto mt-6 border rounded-lg">
+    <!-- <div class="overflow-x-auto mt-6 border rounded-lg">
       <table class="table w-full">
         <thead class="bg-base-200">
           <tr>
@@ -179,6 +179,6 @@
           </tr>
         </tbody>
       </table>
-    </div>
+    </div> -->
   </div>
 </div>
